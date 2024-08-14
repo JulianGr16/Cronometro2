@@ -17,15 +17,18 @@
   </head>
   <body>
     <main>
-      <section class="container mt-5 text-center">
-        <button class="btn btn-primary mx-2" id="iniciar">Iniciar</button>
-        <button class="btn btn-warning mx-2" id="pausar">Pausar</button>
-        <button class="btn btn-danger mx-2" id="reiniciar">Reiniciar</button>
-        <div class="mt-5 contenedorPadre">
-          <div class="cronometro py-2 fs-2 fw-bold" id="cronometro">0:0:0</div>
-        </div>
-      </section>
-    </main>
+        <h1 class="text-center mt-4 text-light">Temporizador</h1>
+        <section>
+          <div class="text-center text-light fs-1">
+            <div id="temporizador">00:00:00</div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary" id="iniciar">Iniciar</button>
+            <button class="btn btn-warning" id="pausar">Parar</button>
+            <button class="btn btn-danger" id="reiniciar">Reiniciar</button>
+          </div>
+        </section>
+      </main>
     <footer class="text-center text-light py-3 bg-dark">
       @Todos los derechos reservados
     </footer>
@@ -34,5 +37,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/temporizador.js"></script>
   </body>
 </html>
